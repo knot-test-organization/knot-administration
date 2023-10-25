@@ -1,0 +1,233 @@
+{
+    "id": "code",
+    "name": "Code",
+    "category": [
+        {
+            "id": "technology",
+            "name": "Technology",
+            "subcategory": [
+                {
+                    "id": "technology",
+                    "name": "Technology",
+                    "items": [
+                        {
+                            "id": "netcore",
+                            "name": ".Net Core Rest Service",
+                            "description": "Adequate choice for building RESTful services with .NET Core.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java",
+                            "name": "Spring Boot Rest Service",
+                            "description": "Option for Java-based RESTful services with Spring Boot.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "angular",
+                            "name": "Angular Web Component",
+                            "description": "Ideal for developing interactive web components using Angular.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "springboot-restservice",
+                            "name": "API First Spring Boot Rest Service",
+                            "description": "Used for RESTful services with an API-first approach in Spring Boot.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-restclient",
+                            "name": "API First Java Rest Client",
+                            "description": "Recommended to be selected when building Java-based REST clients with an API-first approach.",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "repository",
+            "name": "Repository",
+            "subcategory": [
+                {
+                    "id": "repository",
+                    "name": "Repository",
+                    "items": [
+                        {
+                            "id": "github",
+                            "name": "Github",
+                            "description": "Used for code hosting and version control, especially for open-source or collaborative projects.",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "devcontainers",
+            "name": "Devcontainers",
+            "subcategory": [
+                {
+                    "id": "devcontainers",
+                    "name": "Devcontainers",
+                    "items": [
+                        {
+                            "id": "alpine-3.15",
+                            "name": "alpine-3.15",
+                            "subitems": []
+                        },
+                        {
+                            "id": "alpine-3.16",
+                            "name": "alpine-3.16",
+                            "subitems": []
+                        },
+                        {
+                            "id": "alpine-3.17",
+                            "name": "alpine-3.17",
+                            "subitems": []
+                        },
+                        {
+                            "id": "alpine-3.18",
+                            "name": "alpine-3.18",
+                            "subitems": []
+                        },
+                        {
+                            "id": "cpp-debian-10",
+                            "name": "cpp-debian-10",
+                            "subitems": []
+                        },
+                        {
+                            "id": "cpp-debian-11",
+                            "name": "cpp-debian-11",
+                            "subitems": []
+                        },
+                        {
+                            "id": "cpp-debian-12",
+                            "name": "cpp-debian-12",
+                            "subitems": []
+                        },
+                        {
+                            "id": "cpp-ubuntu-20.04",
+                            "name": "cpp-ubuntu-20.04",
+                            "subitems": []
+                        },
+                        {
+                            "id": "cpp-ubuntu-22.04",
+                            "name": "cpp-ubuntu-22.04",
+                            "subitems": []
+                        },
+                        {
+                            "id": "docker-in-docker",
+                            "name": "docker-in-docker",
+                            "subitems": []
+                        },
+                        {
+                            "id": "dotnet-6.0-copilot",
+                            "name": "dotnet-6.0-copilot",
+                            "subitems": []
+                        },
+                        {
+                            "id": "dotnet-6.0",
+                            "name": "dotnet-6.0",
+                            "subitems": []
+                        },
+                        {
+                            "id": "dotnet-7.0",
+                            "name": "dotnet-7.0",
+                            "subitems": []
+                        },
+                        {
+                            "id": "dotnet-6.0-postgres",
+                            "name": "dotnet-6.0-postgres",
+                            "subitems": []
+                        },
+                        {
+                            "id": "dotnet-7.0-postgres",
+                            "name": "dotnet-7.0-postgres",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-8-gradle",
+                            "name": "java-8-gradle",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-8-maven",
+                            "name": "java-8-maven",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-11-gradle-copilot",
+                            "name": "java-11-gradle-copilot",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-11-gradle",
+                            "name": "java-11-gradle",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-11-maven-copilot",
+                            "name": "java-11-maven-copilot",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-11-maven",
+                            "name": "java-11-maven",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-17-gradle",
+                            "name": "java-17-gradle",
+                            "subitems": []
+                        },
+                        {
+                            "id": "java-17-maven",
+                            "name": "java-17-maven",
+                            "subitems": []
+                        },
+                        {
+                            "id": "javascript-node-16",
+                            "name": "javascript-node-16",
+                            "subitems": []
+                        },
+                        {
+                            "id": "javascript-node-18",
+                            "name": "javascript-node-18",
+                            "subitems": []
+                        },
+                        {
+                            "id": "javascript-node-18-copilot",
+                            "name": "javascript-node-18-copilot",
+                            "subitems": []
+                        },
+                        {
+                            "id": "javascript-node-20",
+                            "name": "javascript-node-20",
+                            "subitems": []
+                        },
+                        {
+                            "id": "python-3.8",
+                            "name": "python-3.8",
+                            "subitems": []
+                        },
+                        {
+                            "id": "python-3.9",
+                            "name": "python-3.9",
+                            "subitems": []
+                        },
+                        {
+                            "id": "python-3.10",
+                            "name": "python-3.10",
+                            "subitems": []
+                        },
+                        {
+                            "id": "python-3.11",
+                            "name": "python-3.11",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

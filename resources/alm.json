@@ -1,0 +1,90 @@
+{
+    "id": "alm",
+    "name": "ALM",
+    "category": [
+        {
+            "id": "orchestrator",
+            "name": "Orchestrator",
+            "subcategory": [
+                {
+                    "id": "tool",
+                    "name": "Tool",
+                    "items": [
+                        {
+                            "id": "tekton",
+                            "name": "Tekton",
+                            "description": "Used for complex CI/CD workflows and Kubernetes-native applications.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "githubactions",
+                            "name": "Github Actions",
+                            "description": "Ideal for GitHub-centric projects with simpler CI/CD needs.",
+                            "subitems": []
+                        }
+                    ]
+                },
+                {
+                    "id": "gitBranching",
+                    "name": "Git Branching",
+                    "items": [
+                        {
+                            "id": "gitflow",
+                            "name": "Gitflow",
+                            "description": "Recommended for projects requiring a structured branching model.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "trunkbasedevelopment",
+                            "name": "Trunk Base Development",
+                            "description": "Suitable for projects emphasizing continuous integration and frequent code integration.",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "containerRegistry",
+            "name": "Container Registry",
+            "subcategory": [
+                {
+                    "id": "tool",
+                    "name": "Tool",
+                    "items": [
+                        {
+                            "id": "acr",
+                            "name": "ACR",
+                            "description": "Best for Azure-based container deployments and management.",
+                            "subitems": []
+                        },
+                        {
+                            "id": "github-package",
+                            "name": "Github Package",
+                            "description": "Suitable when using GitHub as the primary code repository and container registry.",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "codeAnalysis",
+            "name": "Code Analysis",
+            "subcategory": [
+                {
+                    "id": "tool",
+                    "name": "Tool",
+                    "items": [
+                        {
+                            "id": "sonarqube",
+                            "name": "Sonarqube",
+                            "description": "Utilized for comprehensive code quality analysis and continuous code improvement.",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

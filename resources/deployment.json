@@ -1,0 +1,144 @@
+{
+    "id": "deployment",
+    "name": "Deployment",
+    "category": [
+        {
+            "id": "hpa",
+            "name": "Horizontal Pod Autoscaling",
+            "subcategory": [
+                {
+                    "id": "tool",
+                    "name": "Tool",
+                    "items": [
+                        {
+                            "id": "bronze",
+                            "name": "BRONZE",
+                            "description": "The entry-level deployment typology designed for users who require basic functionality and features for your component.",
+                            "subitems": [
+                                {
+                                    "id": "min-replicas",
+                                    "name": "Min Replicas",
+                                    "options": [
+                                        {
+                                            "id": 1,
+                                            "name": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "max-replicas",
+                                    "name": "Max Replicas",
+                                    "options": [
+                                        {
+                                            "id": 1,
+                                            "name": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "cpu",
+                                    "name": "CPU",
+                                    "options": []
+                                },
+                                {
+                                    "id": "memory",
+                                    "name": "Memory",
+                                    "options": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "silver",
+                            "name": "SILVER",
+                            "description": "The intermediate-level deployment typology, offering a balance between advanced features and ease of use.",
+                            "subitems": [
+                                {
+                                    "id": "min-replicas",
+                                    "name": "Min Replicas",
+                                    "options": [
+                                        {
+                                            "id": 1,
+                                            "name": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "max-replicas",
+                                    "name": "Max Replicas",
+                                    "options": [
+                                        {
+                                            "id": 2,
+                                            "name": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "cpu",
+                                    "name": "CPU",
+                                    "options": [
+                                        {
+                                            "id": 70,
+                                            "name": 70
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "memory",
+                                    "name": "Memory",
+                                    "options": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "gold",
+                            "name": "GOLD",
+                            "description": "The top-tier deployment typology, tailored for enterprise-level applications and organizations with demanding requirements.",
+                            "subitems": [
+                                {
+                                    "id": "min-replicas",
+                                    "name": "Min Replicas",
+                                    "options": [
+                                        {
+                                            "id": 2,
+                                            "name": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "max-replicas",
+                                    "name": "Max Replicas",
+                                    "options": [
+                                        {
+                                            "id": 4,
+                                            "name": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "cpu",
+                                    "name": "CPU",
+                                    "options": [
+                                        {
+                                            "id": 60,
+                                            "name": 60
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "memory",
+                                    "name": "Memory",
+                                    "options": [
+                                        {
+                                            "id": 550,
+                                            "name": 550
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

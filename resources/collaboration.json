@@ -1,0 +1,24 @@
+{
+    "id": "collaboration",
+    "name": "Collaboration",
+    "category": [
+        {
+            "id": "connectivity",
+            "name": "Connectivity",
+            "subcategory": [
+                {
+                    "id": "tool",
+                    "name": "Tool",
+                    "items": [
+                        {
+                            "id": "microsoftTeams",
+                            "name": "Microsoft Teams",
+                            "description": "Utilized for team collaboration, communication, and integration with your development process.",
+                            "subitems": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+[
+    {
+        "id": "environments",
+        "name": "Environments",
+        "category": [
+            {
+                "id": "dev",
+                "key": "Environment 1",
+                "name": "development",
+                "description": "This environment is used for software and application development. It is a controlled environment where developers can test and debug their code before deploying it to a production environment.",
+                "subcategory": []
+            },
+            {
+                "id": "pre",
+                "key": "Environment 2",
+                "name": "stage",
+                "description": "This environment is used for additional testing and evaluation before deploying a solution to production. Here, teams can test new features, perform performance testing and make sure everything is working properly before releasing a new version or upgrade.",
+                "subcategory": []
+            },
+            {
+                "id": "pro",
+                "key": "Environment 3",
+                "name": "production",
+                "description": "This is the environment where the final version of the software or application runs. This is where end users interact with the product and the day-to-day operation takes place.",
+                "subcategory": []
+            }
+        ]
+    },
+    {
+        "id": "products",
+        "name": "Products",
+        "category": [
+            {
+                "id": "product",
+                "key": "Level 1",
+                "name": "Product",
+                "description": "Product refers to a complete solution or service that you offer to your customers. It can be a software, a web or mobile application, a business management system, etc. The product is the final and complete result that satisfies the needs and requirements of the customers.",
+                "subcategory": []
+            },
+            {
+                "id": "component",
+                "key": "Level 2",
+                "name": "Component",
+                "description": "Component refers to the individual parts that make up your overall product. Components can be the back-end (the logical and functional part of the software), the front-end (the part visible and accessible to users), the databases, the specific modules or libraries used in your product, etc.",
+                "subcategory": []
+            }
+        ]
+    },
+    {
+        "id": "organizations",
+        "name": "Organizations",
+        "category": [
+            {
+                "id": "organization",
+                "key": "Level 1",
+                "name": "Organization",
+                "description": "Organization refers to an entity or group that has a common purpose and is structured in a specific way.",
+                "subcategory": []
+            },
+            {
+                "id": "area",
+                "key": "Level 2",
+                "name": "Area",
+                "description": "Area is a specific part of an organization on which work or responsibility is focused.",
+                "subcategory": []
+            },
+            {
+                "id": "blueprint",
+                "key": "Level 3",
+                "name": "Blueprint",
+                "description": "Blueprint is a term used to describe a detailed design or visual representation of a system or process. It is used to plan and communicate how a specific system or software will be built or implemented.",
+                "subcategory": []
+            }
+        ]
+    },
+    {
+        "id": "roles",
+        "name": "Roles",
+        "category": [
+            {
+                "id": "pl",
+                "key": "Rol 1",
+                "name": "Project Leader",
+                "description": "Project Leader is responsible for overseeing and coordinating all project related activities. This includes the planning, execution and successful completion of the project. He is also responsible for assigning tasks to team members, setting deadlines and ensuring that project objectives are met.",
+                "subcategory": []
+            },
+            {
+                "id": "man",
+                "key": "Rol 2",
+                "name": "Manager",
+                "description": "Manager is responsible for supervising and managing the software development team. This includes assigning tasks, managing resources, solving problems and making strategic decisions. He is also responsible for ensuring that projects are delivered on time and within budget.",
+                "subcategory": []
+            },
+            {
+                "id": "dev",
+                "key": "Rol 3",
+                "name": "Developer",
+                "description": "Developer is responsible for writing, testing and maintaining software source code. This involves working closely with other team members to understand project requirements and translate them into working code. Developers must also perform extensive testing to ensure that the software works properly.",
+                "subcategory": []
+            }
+        ]
+    }
+]
